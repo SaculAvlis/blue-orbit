@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Check, Loader2, Mail, ArrowLeft, Sparkles, Shield, Bell } from 'lucide-react'
+import { Check, Loader2, ArrowLeft, Sparkles, Shield, Bell } from 'lucide-react'
 
 function Waitlist() {
   const [email, setEmail] = useState('')
@@ -91,7 +91,6 @@ function Waitlist() {
                     Email Address
                   </label>
                   <div className="relative">
-                    <Mail size={16} className="absolute left-4 top-1/2 -translate-y-1/2 text-white/40" />
                     <input
                       type="email"
                       name="email"
@@ -99,7 +98,7 @@ function Waitlist() {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="you@company.com"
-                      className="w-full pl-11 pr-4 py-4 glass-input"
+                      className="w-full pl-4 pr-4 py-4 glass-input"
                       disabled={isSubmitting}
                       required
                     />
