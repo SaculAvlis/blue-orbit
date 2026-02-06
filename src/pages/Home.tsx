@@ -69,7 +69,7 @@ function Home() {
         </div>
 
         {/* Logo Sphere */}
-        <div className="absolute top-[28%] right-[-10%] lg:right-[-5%] -translate-y-1/2 w-[500px] h-[500px] lg:w-[700px] lg:h-[700px] pointer-events-none animate-slow-rotate">
+        <div className="absolute top-[28%] right-[-10%] lg:right-[-5%] w-[500px] h-[500px] lg:w-[700px] lg:h-[700px] pointer-events-none animate-slow-rotate">
           <div className="absolute inset-0 rounded-full bg-orbital/8 blur-[80px] animate-pulse-glow" />
           <img src="/logo-sphere.jpg" alt="" className="absolute inset-0 w-full h-full object-contain opacity-[0.12]" />
         </div>
