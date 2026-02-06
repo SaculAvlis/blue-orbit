@@ -91,11 +91,11 @@ function Home() {
                 <span className="font-mono text-xs uppercase tracking-wider text-white/50">Blue Orbit</span>
               </div>
 
-              <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl text-white mb-6 leading-tight">
+              <h1 className="font-heading font-normal text-4xl md:text-5xl lg:text-6xl text-white/90 mb-6 leading-tight">
                 Understand what you can do with your home — before you make costly decisions.
               </h1>
 
-              <p className="text-lg font-light text-white/55 max-w-lg mb-10 leading-relaxed">
+              <p className="text-lg font-normal text-white/75 max-w-lg mb-10 leading-[1.7]">
                 Blue Orbit helps homeowners in Ireland make sense of planning rules, extensions, and constraints — so they know what's possible and what to do next, with clarity and confidence.
               </p>
 
