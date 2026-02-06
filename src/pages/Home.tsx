@@ -150,7 +150,7 @@ function Home() {
       </section>
 
       {/* About Section */}
-      <section ref={aboutRef} id="about" className="relative py-20 lg:py-28 bg-[#11141d]">
+      <section ref={aboutRef} id="about" className="relative py-20 lg:py-28 bg-deep">
         <div className="absolute top-0 left-1/4 w-[400px] h-[400px] rounded-full bg-orbital/5 blur-[120px] pointer-events-none" />
         
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
